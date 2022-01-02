@@ -35,7 +35,7 @@ https://pcjericks.github.io/py-gdalogr-cookbook/vector_layers.html
 '''
 Get Layer
 '''
-file = r'D:\data\信令和用地数据\京津冀手机信令数\京津冀5月OD\5od_hour.gdb'
+file = r'D:\data\***\5od_hour.gdb'
 driver = ogr.GetDriverByName("OpenFileGDB")
 gdb = driver.Open(file, 0)
 data = gdb.GetLayer('od_508_521')
@@ -67,7 +67,7 @@ connected to SQL
 config = {'host' : '127.0.0.1',
             'port': 3306,
             'user': 'root',
-            'passwd': '240960MariaDB',
+            'passwd': '***',
             'database': "test",
         #   'charset': 'utf8mb4',
             'local_infile': 1
